@@ -1,0 +1,22 @@
+{
+  "name": "commonapi",
+  "version": "1.0.0",
+  "description": "整理的常用api",
+  "keywords": ["常用方法", "apis"],
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js > lib/bundle.js",
+    "test": "browserify index.js > lib/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panda-zhao/commonapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/panda-zhao/commonapi.git/issues"
+  },
+  "author": "panda",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
