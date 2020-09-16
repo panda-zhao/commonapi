@@ -16,7 +16,5 @@
     "url": "https://github.com/panda-zhao/commonapi.git/issues"
   },
   "author": "panda",
-  "license": "ISC",
-  "dependencies": {
-  }
+  "license": "ISC"
 }
