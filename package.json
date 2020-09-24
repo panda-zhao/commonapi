@@ -2,7 +2,10 @@
   "name": "commonapi",
   "version": "1.0.0",
   "description": "整理的常用api",
-  "keywords": ["常用方法", "apis"],
+  "keywords": [
+    "常用方法",
+    "apis"
+  ],
   "main": "index.js",
   "scripts": {
     "build": "browserify index.js > lib/bundle.js",
@@ -17,6 +20,10 @@
   },
   "author": "panda",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "node-forge": "^0.10.0",
+    "style-loader": "^1.2.1"
   }
 }

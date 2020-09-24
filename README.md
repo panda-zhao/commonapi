@@ -18,7 +18,7 @@
 [Babel](https://babeljs.io/) 是下一代JavaScript编译器。其中一个特性是现在可以使用ES6/ES2015模块，即使浏览器本身还不支持这个功能。
 
 ```js
-import $ from "commonapi"
+import $ from commonapi
 ```
 
 #### 1.1.3 Browserify/Webpack
@@ -54,5 +54,3 @@ const { JSDOM } = require( "jsdom" );
 const { window } = new JSDOM( "" );
 const $ = require( "commonapi" )( window );
 ```
-
-## 二 支持commonJS和script

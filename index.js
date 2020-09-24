@@ -1,4 +1,4 @@
-var apis = require('./lib/utils');
+var apis = require('./src/utils');
 // console.log('apis', apis)
 
 

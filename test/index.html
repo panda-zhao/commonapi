@@ -12,6 +12,13 @@
     </div>
     <script>
       console.log($)
+      let cityList = [
+        { label: '广州市',id: '2' },
+        { label: '五指山市',id: '1' }
+      ]
+      let cityName = '广州市'
+      let id = cityList.find(item=> item.label === cityName).id
+      console.log(id)
     </script>
   </body>
 </html>
